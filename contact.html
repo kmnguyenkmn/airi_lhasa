@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" media="screen">
+  <title>Airi the Lhasa - Contact Me</title>
+</head>
+<body>
+  <!-- Logo & Navigation -->
+  <header class="header">
+    <h1 class="logo"><a href="index.html">Airi the Lhasa</a></h1>
+    <nav>
+    <ul class="top-nav">
+      <li><a href="about.html">About Airi</a></li>
+      <li><a href="breed.html">Breed Info</a></li>
+      <li><a href="shihtzu.html">VS Shih Tzus</a></li>
+      <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+    </nav>
+</header>
+
+<main class="main">
+  <div class="wrapper">
+    <h2>Contact Me:</h2>
+         <!-- Line Break for Space --> <br>
+    <p>If you have any questions, concerns, or feedback that you would like to share, please fill out the form down below. The mini questionnaire isn't required, but I would encourage you to fill it out. Don't worry, it's just to see whether you have pets and whatnot, nothing sensitive like credit card information. :)</p>
+
+    <!-- Contact Form Submission -->
+    <div class="form-container">
+      <form method="POST" action="https://webdevbasics.net/scripts/demo.php">
+      <!-- Visitor's First Name -->
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="firstname" placeholder="First Name" required="required">
+
+      <!-- Visitor's Last Name -->
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lname" placeholder="Last Name" required="required">
+
+      <!-- Visitor's Email Address -->
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="Email address" required="required">
+
+      <fieldset>
+        <legend>Questionnaire:</legend>
+      
+          <!-- Pet's Name -->
+        <label for="petname">Your Pet's Name:</label>
+        <input type="text" id="petname" name="petname" placeholder="Your Pet's Name">
+
+        <!-- Pet Type -->
+        <label for="pet-type">Animal type:</label>
+        <select id="animal-type" name="animal-list">
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="bird">Bird</option>
+          <option value="aquatic">Aquatic (fish, turtle, etc)</option>
+          <option value="hamster">Hamster</option>
+          <option value="gerbil">Gerbil</option>
+          </select>
+
+        <!-- Yes, No, Maybe -->
+        <label>Do you want a Lhasa Apso?</label>
+        <!-- Line Break for Space --> <br>
+        <input type="radio" id="yes" name="yes" value="yes">
+        <label for="yes">Yes</label><br>
+
+        <input type="radio" id="no" name="no" value="no">
+        <label for="no">No</label><br>
+
+        <input type="radio" id="maybe" name="maybe" value="maybe">
+        <label for="maybe">Maybe</label>
+
+     <!-- Line Break for Space --> <br><br>
+
+        <!-- Pet Birthday -->
+        <label for="birthday">Your Pet's Birthday:</input>
+        <input type="date" id="birthdate" name="birthdate">
+        
+      </fieldset>
+
+     <!-- Line Break for Space --> <br>
+
+      <!-- Comment/Feedback Box -->
+      <label for="feedback">Feedback:</label>
+      <textarea id="feedback" name="feedback" maxlength="1000" placeholder="Please type your questions, concerns, or feedback here."></textarea>
+
+      <!-- Submit Button -->
+      <input type="submit" value="Submit">
+  </div>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  Copyright &copy; 2020 Airi the Lhasa<br>
+  Email: <a href="mailto:kmnguyen2@mail.fhsu.edu">kmnguyen2@mail.fhsu.edu</a><br><br>
+  <a href="http://instagram.com/airi_lhasa" target="_blank">
+    <i class="fab fa-instagram fa-2x"></i></a>
+</footer>
+</body>
+</html>
