@@ -380,7 +380,7 @@ textarea {
     .about-container1,
     .about-container2 {
       display: flex;
-      flex-direction: column-reverse;
+      flex-direction: column;
     }
     
     #about-puppy,
