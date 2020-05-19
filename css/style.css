@@ -311,6 +311,8 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   display: inline-block;
+  text-align: center;
+  width: 100%;
 }
 
 input[type=submit]:hover {
