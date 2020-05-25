@@ -236,6 +236,8 @@ a:visited {
 table {
   width: 100%;
   border-collapse: collapse;
+  padding: 0;
+  table-layout: fixed;
 }
 
 table, tr { 
@@ -311,8 +313,8 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   display: inline-block;
-  text-align: center;
   width: 100%;
+  text-align: center;
 }
 
 input[type=submit]:hover {
@@ -401,4 +403,9 @@ textarea {
       height: auto;
       width: 100%;
     }
+
+    #table {
+      overflow-y: scroll;
+      width: 80%;
+    } 
   }
